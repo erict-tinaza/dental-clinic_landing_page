@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
+import ServicesOffered from '../partials/ServicesOffered';
 
 
 
@@ -17,7 +18,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-    
+        <ServicesOffered/>
 
       </main>
 
