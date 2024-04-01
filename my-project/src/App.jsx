@@ -11,7 +11,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-
+import SignIn from './pages/SignIn';
 
 function App() {
 
@@ -36,6 +36,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/signin" element={<SignIn/>} />
       </Routes>
     </>
   );
