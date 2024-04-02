@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import ServicesOffered from '../partials/ServicesOffered';
+import Footer from '../partials/Footer';
 
 
 
@@ -21,6 +22,10 @@ function Home() {
         <ServicesOffered/>
 
       </main>
+
+      <Footer/>
+
+
 
     
 
