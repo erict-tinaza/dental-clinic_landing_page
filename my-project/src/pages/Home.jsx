@@ -4,6 +4,7 @@ import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import ServicesOffered from '../partials/ServicesOffered';
 import Footer from '../partials/Footer';
+import Testimonials from '../partials/Testimonials';
 
 
 
@@ -20,8 +21,9 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <ServicesOffered/>
-
+        <Testimonials/>
       </main>
+
 
       <Footer/>
 
